@@ -177,7 +177,7 @@ ganttrify <- function(project,
 
   if (todays_date == TRUE){
     gg_gantt <- gg_gantt +
-      ggplot2::geom_vline(xintercept = Sys.Date(),color="blue")
+      ggplot2::geom_vline(xintercept = Sys.Date(),color="red")
   }
 
 
